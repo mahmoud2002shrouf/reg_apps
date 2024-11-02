@@ -1,0 +1,41 @@
+# ملفات بايثون
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# بيئات افتراضية
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ملفات الإعدادات
+*.env
+.env.*
+*.local
+
+# إعدادات Django
+db.sqlite3
+/media
+/staticfiles
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# إعدادات المحررات
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ملفات التوثيق
+*.log
+*.pot
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
